@@ -1,0 +1,79 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: #16a34a;
+  border: none;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #22c55e;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 350px;
+}
+
+.hero-title {
+  width: 100%;
+}
+
+.text-primary {
+  color: #059669 !important;
+  fill: #059669 !important;
+}
+
+.small-image {
+  height: 190px;
+  object-fit: cover;
+}
+
+.large-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.border-primary {
+  border-color: #059669 !important;
+}
+
+
+.nav-pills {
+  gap: 16px;
+  --bs-nav-pills-link-active-bg: #059669 !important;
+}
+
+.nav-pills .nav-item {
+  border: 1px solid #b9b9b9;
+  border-radius: 2px;
+  width: auto;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.chef-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
