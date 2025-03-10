@@ -167,28 +167,6 @@
   border-bottom: 22px solid transparent;
 }
 
-.team-item {
-  box-shadow: 0 0 4px rgba(0, 0, 0, .08);
-  height: calc(100% - 38px);
-  transition: .5s;
-}
-
-.team-item:hover img {
-  transform: scale();
-}
-
-.team-item:hover img {
-  transform: scale(1.1);
-}
-
-.team-item:hover {
-  height: 100%;
-}
-
-.team-item .btn {
-  border-radius: 38px 38px 0 0;
-}
-
 .footer .btn.btn-social {
   width: 35px;
   height: 35px;
@@ -199,6 +177,10 @@
   border: 1px solid white;
   border-radius: 35px;
   transition: .3s;
+}
+
+.bg-default {
+  width: 100%;
 }
 
 .footer .btn.btn-social:hover {
