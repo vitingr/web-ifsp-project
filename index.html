@@ -19,14 +19,13 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/index.css">
 
-  <script type="module">
-    import { loadGoogleTagManager, subscribeGoogleTag } from './gtm.js';
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL2W6S26KE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    loadGoogleTagManager('');
-
-    document.addEventListener("DOMContentLoaded", subscribeGoogleTag);
-
-    window.addEventListener("popstate", subscribeGoogleTag);
+    gtag('config', 'G-XL2W6S26KE');
   </script>
 </head>
 
