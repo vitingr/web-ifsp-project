@@ -117,28 +117,17 @@
 
 .video {
   position: relative;
-  min-height: 500px;
+  min-height: 400px;
   height: 100%;
-  background: linear-gradient(rgba(15, 23, 43, .1), rgba(12, 23, 43, .1), url(""));
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.video .btn-play {
-  position: absolute;
-  z-index: 3;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  box-sizing: content-box;
-  display: block;
-  width: 32px;
-  height: 44px;
-  border-radius: 50%;
-  border: 0;
-  outline: 0;
-  padding: 18px 20px 18px 28px;
+.container-booking {
+  max-width: 750px;
 }
 
 .video .btn-play::before {
@@ -247,7 +236,7 @@
 
 
 .hero-header {
-  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9), url());
+  background-image: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9), url("/homepage/background-video.mp4"));
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,6 +296,7 @@
 }
 
 .chef-image {
+  border-radius: 8px;
   width: 120px;
   height: 120px;
   object-fit: cover;
